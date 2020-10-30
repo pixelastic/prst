@@ -2,10 +2,28 @@
   "devDependencies": {
     "aberlaas": "1.13.3"
   },
-  "files": ["lib/*.js"],
+  "dependencies": {
+    "@octokit/rest": "18.0.7",
+    "clear": "0.1.0",
+    "firost": "2.0.6",
+    "git-remote-origin-url": "3.1.0",
+    "golgoth": "1.5.0",
+    "growl": "1.10.5",
+    "minimist": "1.2.5",
+    "open": "7.3.0",
+    "parse-github-repo-url": "1.4.1"
+  },
+  "files": [
+    "bin/",
+    "lib/*.js",
+    "lib/helpers/*.js"
+  ],
+  "bin": {
+    "prst": "bin/prst"
+  },
   "license": "MIT",
   "main": "lib/main.js",
-  "name": "predator",
+  "name": "prst",
   "scripts": {
     "ci": "./scripts/ci",
     "husky:precommit": "./scripts/husky-precommit",

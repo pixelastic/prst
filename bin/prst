@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+const prst = require('../lib/main.js');
+(async () => {
+  await prst.run(process.argv.slice(2));
+})();
