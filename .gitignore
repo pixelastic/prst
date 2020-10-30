@@ -1,0 +1,16 @@
+.DS_Store
+.cache
+.envrc
+.netlify
+.sass-cache
+.yalc/
+Thumbs.db
+/build/
+dist/
+node_modules/
+npm-debug.log
+tmp/
+yalc.lock
+yarn-error.log
+*~
+*.rej
