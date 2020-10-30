@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "aberlaas": "1.13.3"
+  },
+  "files": ["lib/*.js"],
+  "license": "MIT",
+  "main": "lib/main.js",
+  "name": "predator",
+  "scripts": {
+    "ci": "./scripts/ci",
+    "husky:precommit": "./scripts/husky-precommit",
+    "lint": "./scripts/lint",
+    "lint:fix": "./scripts/lint-fix",
+    "release": "./scripts/release",
+    "test": "./scripts/test",
+    "test:watch": "./scripts/test-watch"
+  },
+  "version": "0.0.1"
+}
