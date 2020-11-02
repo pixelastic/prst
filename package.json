@@ -3,7 +3,7 @@
     "aberlaas": "1.13.3"
   },
   "dependencies": {
-    "@octokit/rest": "18.0.8",
+    "@octokit/rest": "18.0.9",
     "clear": "0.1.0",
     "firost": "2.0.6",
     "git-remote-origin-url": "3.1.0",
