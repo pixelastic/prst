@@ -34,6 +34,9 @@ browser.
 
 ## Options
 
+`prst` will look for a remote branch with the same name as the local branch by
+default, but you can specify your own branch by pass the `--branch` argument.
+
 By default the process will run until all the checks are completed, but you can
 pass the `--once` flag to only run it once.
 
