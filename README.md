@@ -18,7 +18,7 @@ yarn global add prst
 ```
 
 You also need a `GITHUB_TOKEN` environment variable with a valid personal access
-token. You can create one on [https://github.com/settings/tokens]().
+token. You can create one on [https://github.com/settings/tokens](https://github.com/settings/tokens).
 
 _If your organization has SSO enabled, you'll need to sign your token by
 clicking on the `Enable SSO` button_
