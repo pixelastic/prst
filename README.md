@@ -34,6 +34,17 @@ It will check for status update regularly and once the build is over, will
 notify you through your OS notification system and open the Pull Request in your
 browser.
 
+### Notification system
+
+`prst` do use [growl][3] as notification system
+
+If you are on MacOS, you need to install it with :
+
+```
+sudo gem install terminal-notifier
+npm install growl
+```
+
 ## Options
 
 `prst` will look for a remote branch with the same name as the local branch by
@@ -47,3 +58,4 @@ to define your own custom interval delay (in seconds).
 
 [1]: https://raw.githubusercontent.com/pixelastic/prst/master/.github/screenshot.png
 [2]: https://github.com/settings/tokens
+[3]: https://classic.yarnpkg.com/en/package/growl
