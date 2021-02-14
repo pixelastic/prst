@@ -10,7 +10,7 @@
     "golgoth": "2.0.0",
     "growl": "1.10.5",
     "minimist": "1.2.5",
-    "open": "7.4.0",
+    "open": "7.4.1",
     "parse-github-repo-url": "1.4.1"
   },
   "files": [
