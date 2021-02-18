@@ -26,13 +26,12 @@ clicking on the `Enable SSO` button_
 
 ## Usage
 
-Simply run `prst` from your git repository and it will automatically look for
+Run `prst` from your git repository and it will automatically look for
 a Pull Request coming from your current branch and display the relevant status
 check.
 
-It will check for status update regularly and once the build is over, will
-notify you through your OS notification system and open the Pull Request in your
-browser.
+It will check for status update and once the build is over, will notify you
+through your OS notification system and open the Pull Request in your browser.
 
 ### Notification system
 
@@ -51,7 +50,10 @@ npm install growl
 default, but you can specify your own branch by pass the `--branch` argument.
 
 By default the process will run until all the checks are completed, but you can
-pass the `--once` flag to only run it once.
+pass the `--once` flag to run it once and stop.
+
+Add the `--debug` flag to see more debug information, like your current API rate
+limit credentials.
 
 Status are polled every 5mn by default, but you can pass the `--interval` flag
 to define your own custom interval delay (in seconds).
