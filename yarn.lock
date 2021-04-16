@@ -2792,6 +2792,32 @@ find-versions@^4.0.0:
   dependencies:
     semver-regex "^3.1.2"
 
+firost@2.10.0:
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/firost/-/firost-2.10.0.tgz#e4af0898f58e631dc407717a17bd6b9737cef4e2"
+  integrity sha512-w75qwo+h3Jm3nYprowyznA2mMdA+E+umqQm5po5Fx7HgyHLQO0YNkKoSBnRn9e79TwNSx9GjGjOYZYqaYJVQKA==
+  dependencies:
+    callsites "3.1.0"
+    chokidar "3.5.1"
+    clear-module "4.1.1"
+    eventemitter2 "6.4.4"
+    execa "5.0.0"
+    find-up "5.0.0"
+    fs-extra "9.1.0"
+    globby "11.0.3"
+    golgoth "2.0.0"
+    inquirer "7.3.3"
+    is-glob "4.0.1"
+    json-stable-stringify "1.0.1"
+    nanoid "3.1.22"
+    normalize-url "5.3.0"
+    ora "5.4.0"
+    std-mocks "1.0.1"
+    strip-ansi "6.0.0"
+    tempy "1.0.1"
+    untildify "4.0.0"
+    which "2.0.2"
+
 firost@2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/firost/-/firost-2.7.0.tgz#ef1569d87e17380522245834728ff8c4749a85bc"
@@ -2815,32 +2841,6 @@ firost@2.7.0:
     std-mocks "1.0.1"
     strip-ansi "6.0.0"
     tempy "1.0.0"
-    untildify "4.0.0"
-    which "2.0.2"
-
-firost@2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/firost/-/firost-2.9.0.tgz#abe5bdab6123f82da61e0a9d188d7d6d29a63d1c"
-  integrity sha512-pz+hX7cbG2ODNYoJn9lhXtFeKm+KNzzYMJtUjWAZakSEbfxr7RjEnpfuCDDVBNVX5na/zLZZuPzb5093Sj4T5w==
-  dependencies:
-    callsites "3.1.0"
-    chokidar "3.5.1"
-    clear-module "4.1.1"
-    eventemitter2 "6.4.4"
-    execa "5.0.0"
-    find-up "5.0.0"
-    fs-extra "9.1.0"
-    globby "11.0.3"
-    golgoth "2.0.0"
-    inquirer "7.3.3"
-    is-glob "4.0.1"
-    json-stable-stringify "1.0.1"
-    nanoid "3.1.22"
-    normalize-url "5.3.0"
-    ora "5.4.0"
-    std-mocks "1.0.1"
-    strip-ansi "6.0.0"
-    tempy "1.0.1"
     untildify "4.0.0"
     which "2.0.2"
 
