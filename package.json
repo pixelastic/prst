@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "aberlaas": "1.15.0"
+    "aberlaas": "1.16.0"
   },
   "dependencies": {
     "@octokit/rest": "18.5.2",
