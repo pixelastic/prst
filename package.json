@@ -1,11 +1,11 @@
 {
   "devDependencies": {
-    "aberlaas": "1.25.0"
+    "aberlaas": "2.10.0"
   },
   "dependencies": {
     "@octokit/rest": "18.12.0",
     "clear": "0.1.0",
-    "firost": "2.17.0",
+    "firost": "4.3.0",
     "git-remote-origin-url": "3.1.0",
     "golgoth": "2.1.0",
     "growl": "1.10.5",
