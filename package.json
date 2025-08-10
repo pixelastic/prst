@@ -9,8 +9,8 @@
     "git-remote-origin-url": "3.1.0",
     "golgoth": "2.1.0",
     "growl": "1.10.5",
-    "minimist": "1.2.5",
-    "open": "8.4.0",
+    "minimist": "1.2.8",
+    "open": "8.4.2",
     "parse-github-repo-url": "1.4.1"
   },
   "files": [
