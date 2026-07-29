@@ -1,3 +1,7 @@
+> **⚠️ ARCHIVED**: I used this a lot when working in a team with long-running PR checks. I now have better workflows and no longer need it.
+
+---
+
 # Prst
 
 `prst` is a **P**ull **R**equest **S**tatus **T**racker. Run it in on your
